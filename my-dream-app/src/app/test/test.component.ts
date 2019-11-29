@@ -7,8 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
-  constructor() { }
-
+public hisError=true;
+public highlightColor="orange";
+public titleStyle={
+  color:"blue",
+  fontStyle:"italic"
+}
   ngOnInit() {
   }
 
