@@ -35,7 +35,9 @@ console.log(event)
 // 12 შეგვიძლია ვმართოთ კომპონენტები *ngIf  #else ის გამოყენებით
 disname=false;
 // 13 ngSwitch 
-public color ="red";
+public coloor ="red";
+// 14 *ngFor 
+public colors=["black", "blue", "yellow","orangered"];
 
 
 }

@@ -31,13 +31,21 @@
         </ng-template>
 
         <hr>
-        <div [ngSwitch]="color">
+        <div [ngSwitch]="coloor">
             <div class="red" *ngSwitchCase="'red'">picked red color </div>
             <div class="blue" *ngSwitchCase="'blue'">picked blue color </div>
             <div class="green" *ngSwitchCase="'green'">picked green color </div>
             <div class="yellow" *ngSwitchDefault>Default</div>
         </div>
-       
+        <hr>
+        <div *ngFor="let color of colors; index as i">
+            <!-- first პირველ ელემრნტს last ბოლოს 
+            odd  კენტ ინდექზე  even ლუწ ინდექზე   -->
+         <h6>{{i}} {{color}} </h6>
+         <hr class="{{color}}">
+         
+        </div>
+
 
 </body>
 </html>

@@ -1,5 +1,10 @@
 .red{
     color:red;
+  
+}
+.black{
+    background-color: black;
+    height:10px
 }
 .green{
     display: flex;
@@ -8,7 +13,16 @@
 }
 .yellow{
 color:yellow;
+background-color: yellow;
+height: 10px;
 }
 .blue{
+    background-color: blue;
     color: blue;
+    height: 10px;
+   
+}
+.orangered{
+    background-color: orangered;
+    height:10px;
 }
