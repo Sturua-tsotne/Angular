@@ -19,9 +19,9 @@
         <button (click)="NAme='გამარჯობა'">greet</button>
         {{NAme}}
         <hr class="green">
-        <input [(ngModel)]="NAME" type="text">
+        <input [(ngModel)]="p" type="text">
         <hr>
-        <p>{{NAME}}</p>
+        <p>{{p}}</p>
         <hr>
         
         
@@ -29,6 +29,14 @@
         <ng-template #elseBlock>
                 <h1  class="green">  if = false </h1>
         </ng-template>
+
+        <hr>
+        <div [ngSwitch]="color">
+            <div class="red" *ngSwitchCase="'red'">picked red color </div>
+            <div class="blue" *ngSwitchCase="'blue'">picked blue color </div>
+            <div class="green" *ngSwitchCase="'green'">picked green color </div>
+            <div class="yellow" *ngSwitchDefault>Default</div>
+        </div>
        
 
 </body>

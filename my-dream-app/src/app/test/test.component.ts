@@ -17,7 +17,7 @@ public titleStyle={
 
   // გაკვეთილი9
   public greeting="";
-  public NAme="";
+  public NAme=" ";
   
   
 
@@ -30,11 +30,12 @@ console.log(event)
  this.greeting="ცოტნე";
  
 }
-onClic(){
-  this.NAme='ცოტნე';
-}
+
 
 // 12 შეგვიძლია ვმართოთ კომპონენტები *ngIf  #else ის გამოყენებით
 disname=false;
+// 13 ngSwitch 
+public color ="red";
+
 
 }
