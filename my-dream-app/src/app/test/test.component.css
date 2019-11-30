@@ -2,7 +2,9 @@
     color:red;
 }
 .green{
-    color:green;
+    display: flex;
+ justify-content:center;
+ color:green;
 }
 .yellow{
 color:yellow;
