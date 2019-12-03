@@ -11,11 +11,13 @@ export class UserListComponent implements OnInit {
   jeson(_UserListComponent: any){
 
   }
-  public uesrs=[ ];
-  constructor( private _employeeService: EmployeService) { }
+  public uesrs=[];
+  constructor( private _employeeService: EmployeService){}
 
   ngOnInit() {
-    this.uesrs=this._employeeService.getEmployee();
+    this._employeeService.getEmployee()
+                        .subscribe(data =>this.uesrs= data);
   }
+                        
 
 }
