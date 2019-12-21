@@ -1,0 +1,35 @@
+<!-- 
+<div style="width: 400px; margin-left: 30%;box-shadow: -1px 1px 15px 0px black; margin-top: 30px;">
+   <div  *ngFor="let val of vals" >
+       <div style="display: inline-block; margin-top: 20px;margin-left: 10px; width: 100px;">
+            <p > {{val}} :</p> 
+        </div>
+       <div style=" display: inline-block; margin-left: 10px; width: 174px;">
+         <input [(ngModel)]="textValue" class="{{color}}" id="input"   type="text">
+        </div>
+      
+    </div>
+    <div style="margin-left: 30%;padding: 5%;">
+        <button  (click)="onClickBtn()" style="background-color:green;">რეგისტრატიონ</button>
+    </div>
+</div>
+
+
+<style>
+.red{
+ background-color: red;
+}
+.green{
+    background-color: green;
+}
+
+</style> -->
+<toolbar color="primary">
+    <row>
+      <!--  <span>HOME</span> -->
+       <span><a href="/">HOME</a></span>
+       <span class="spacer"></span>
+       <a mat-button routerLink="/register">Register</a>
+       <a mat-button routerLink="/login">Login</a>
+    </row>
+ </toolbar>

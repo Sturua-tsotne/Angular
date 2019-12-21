@@ -8,6 +8,8 @@ import { TestComponent } from './test/test.component';
 import { UserListComponent } from './user-list/user-list.component';
 import {EmployeService}   from './Employee.Service';
 import {HttpClientModule} from '@angular/common/http';
+import { RegistrationComponent } from './registration/registration.component';
+
 
 
 @NgModule({
@@ -15,6 +17,9 @@ import {HttpClientModule} from '@angular/common/http';
     AppComponent,
     TestComponent,
     UserListComponent,
+    RegistrationComponent,
+    
+    
       
     
   ],
